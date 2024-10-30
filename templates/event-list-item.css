@@ -1,0 +1,12 @@
+.cibul-event-list-item { margin: 1em; }
+.cibul-event-list-item a { color: inherit; text-decoration: none; }
+.cibul-event-list-item > div { display: inline-block; vertical-align: middle; }
+
+.cibul-event-list-item .cibul-thumb { width: 4em; }
+.cibul-event-list-item .cibul-thumb img { vertical-align: middle; width:100%; }
+.cibul-event-list-item .cibul-content.with-thumb { margin-left: .5em; max-width: 30em; }
+
+.cibul-event-list-item .cibul-description, .cibul-event-list-item .cibul-spacetime { font-size: 0.8em; }
+
+.cibul-event-list-item .cibul-map-icons { display: inline-block; padding: 0 0.5em; }
+.cibul-event-list-item .cibul-map-icons img { vertical-align: middle;  padding: 0.1em; width: 1.1em; }

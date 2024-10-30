@@ -1,0 +1,10 @@
+{% if hasImage == true %}
+<div class="cibul-thumb">
+  <a href="{{ link }}" target="_blank"><img src="{{ imageThumb }}"/></a>
+</div>
+{% endif %}
+<div class="cibul-content {% if hasImage == true %} with-thumb {% endif %}">
+  <div class="cibul-title"><a href="{{ link }}" target="_blank">{{ title }}</a></div>
+  <div class="cibul-description"><a href="{{ link }}" target="_blank">{{ description }}</a></div>
+  <div class="cibul-spacetime"><a href="{{ link }}" target="_blank">{{ spaceTimeInfo }}</a><span class="cibul-map-icons {{ mapIconClass }}"></span></div>
+</div>
